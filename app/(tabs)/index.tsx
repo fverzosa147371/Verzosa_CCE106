@@ -122,7 +122,6 @@ const styles = StyleSheet.create({
   },
   courseText: {
     fontSize: 16,
-    color: "#FFD700",
   },
   ideaText: {
     fontSize: 14,
