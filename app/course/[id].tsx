@@ -5,7 +5,6 @@ export default function CourseDetailScreen() {
   const { id } = useLocalSearchParams();
   const router = useRouter();
 
-  // Decode the URL parameter back to standard text (e.g., CCE 106/L)
   const decodedId = typeof id === "string" ? decodeURIComponent(id) : id;
 
   return (
