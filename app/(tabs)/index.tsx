@@ -5,7 +5,7 @@ import StatCard from "../../components/StatCard";
 export default function HomeScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.welcome}>Welcome back, Frank!</Text>
+      <Text style={styles.welcome}>Welcome back!</Text>
 
       <View style={styles.statsRow}>
         <StatCard title="Total" value={5} color="#bb86fc" />
